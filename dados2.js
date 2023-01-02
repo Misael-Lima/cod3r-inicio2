@@ -14,6 +14,12 @@ console.log(
     categoria +
     " preço:" +
     preco +
-    " desconto: " +
+    " desconto: " + //concatenação
     desconto
 );
+
+console.log(` 
+  produto: ${nome} 
+   categoria: ${categoria}  
+    preço: ${preco}
+    desconto: ${desconto}`); //template string
